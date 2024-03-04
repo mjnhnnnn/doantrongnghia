@@ -171,11 +171,11 @@ body {
   font-size: 42px;
 }
 #anhdaidien {
-  background-image: url("../img/0001_200410_125810.jpg");
+  background-image: url("../img2/img1.jpg");
   position: absolute;
   inset: 25px;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   border-radius: 50%;
   z-index: -1;
 }
@@ -452,4 +452,49 @@ body {
   font-family: dancing-script, "Open Sans";
   font-size: 28px;
   line-height: 1.2;
+}
+.qr-wrap .name {
+  font-family: "myFont", "Bitstream Vera Serif", serif;
+  font-size: 70px;
+  line-height: 1.5;
+  text-align: center;
+}
+.qr-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.qr-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.qr-text {
+  font-size: 18px;
+  max-width: 90%;
+}
+.stk {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.stk p {
+  margin: 0;
+}
+.stk button {
+  background: #fff;
+  color: #000;
+}
+@media (min-width: 1200px) {
+  .footer-custom-box {
+    margin-left: 0;
+  }
+}
+.footer-custom-box {
+  margin: 0 auto;
 }
