@@ -312,25 +312,34 @@ body {
 }
 .wedding-timeline {
   font-family: "myFont", "Bitstream Vera Serif", serif;
-  color: #fff;
+  color: #000;
   font-size: 45px;
   line-height: 1.5;
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
 }
+.tiectoi .nhatrai {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nhatrai b {
+  margin-top: 6px;
+}
 .details-wedding {
   font-weight: 500;
 }
 .time-border {
-  color: #f5a296;
+  color: #ed4560;
   border: 1px dashed currentColor;
   padding: 5px 10px;
-  margin: 10px 0;
   display: inline-block;
   border-radius: 10px;
   font-weight: 600;
-  margin-bottom: 30px;
 }
 .img-icon {
   width: 25px;
@@ -404,6 +413,8 @@ body {
   margin-left: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   line-height: 1.5;
   max-width: 100% !important;
@@ -453,11 +464,19 @@ body {
   font-size: 28px;
   line-height: 1.2;
 }
+#qr > img {
+  margin: 0 auto;
+  display: block;
+}
 .qr-wrap .name {
   font-family: "myFont", "Bitstream Vera Serif", serif;
   font-size: 70px;
   line-height: 1.5;
   text-align: center;
+}
+.qr-wrap p {
+  text-align: center;
+  margin-top: 40px;
 }
 .qr-img img {
   width: 300px;
@@ -466,7 +485,7 @@ body {
 }
 .qr-img {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   display: flex;
   align-items: center;
   gap: 35px;
@@ -476,12 +495,15 @@ body {
 .qr-text {
   font-size: 18px;
   max-width: 90%;
+  text-align: center;
 }
 .stk {
   margin-top: 20px;
   display: flex;
   align-items: center;
   gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .stk p {
   margin: 0;
@@ -489,6 +511,7 @@ body {
 .stk button {
   background: #fff;
   color: #000;
+  border: 1px solid;
 }
 @media (min-width: 1200px) {
   .footer-custom-box {
@@ -497,4 +520,43 @@ body {
 }
 .footer-custom-box {
   margin: 0 auto;
+}
+body,
+.demo-bg {
+  background-color: #fcfafa;
+  /* background-color: #ccc; */
+}
+#gla_content {
+  color: #000;
+}
+.gla_wht_txt {
+  color: #000;
+}
+header nav.gla_transp_nav a {
+  color: #000;
+}
+.icon-diachi {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 10px;
+}
+.icon-diachi svg {
+  width: 24px;
+  height: 24px;
+}
+.icon-diachi a {
+  font-size: 20px;
+  font-weight: bold;
+}
+.gla_transp_nav .gla_main_menu_icon i {
+  background: #000;
+}
+#lth-section > .container.text-center {
+  padding-top: 0 !important;
+}
+.tencodauchude-mobile2 {
+  font-family: "myFont", "Bitstream Vera Serif", serif;
+  font-size: 40px;
+  line-height: 1.5;
 }
