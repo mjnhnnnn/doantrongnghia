@@ -467,7 +467,13 @@ body {
 #qr > img {
   margin: 0 auto;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  max-width: 70%;
+}
+@media (min-width: 769px) {
+  #qr > img {
+    max-width: 40%;
+  }
 }
 .qr-wrap .name {
   font-family: "myFont", "Bitstream Vera Serif", serif;
