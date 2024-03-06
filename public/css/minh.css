@@ -602,3 +602,12 @@ header nav.gla_transp_nav a {
 body {
   background-image: url("https://app.thesimple.vn/uploads/contact/62fcb59fce598-Background.jpg");
 }
+#attend-section {
+  background-image: url("../img2/img2.jpg");
+}
+@media (min-width: 768px) {
+  #attend-section {
+    background-image: url("../img2/5.jpg");
+    background-position: top;
+  }
+}
